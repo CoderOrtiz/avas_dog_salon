@@ -1,7 +1,5 @@
 body {
     font-family: "montserrat";
-    
-    
 }
 
 h1, h2, h3 {
@@ -9,38 +7,34 @@ h1, h2, h3 {
     font-weight: 900;
 }
 
-#navbarNav {
-    flex: none;
-    background-color: #ff4c68;
-    padding: 0 10%;
-    
-    
-}
-
-.navbar-brand {
-    color: white;
-    padding-left: 9%;
-}
-
-a {
-    color: white;
-}
-
-.section_1 {
-    background-color: #ff4c68;
-    color: white;
-    
-    margin-bottom: 3;
-}
-
 img {
     border-radius: 100%;
 }
 
+/* Section1/NavBar */
+/* NavBar */
+.navbar_1 {
+    background-color: #ff4c68;
+}
+
+#navbarNav {
+    flex: none;
+    padding: 0 10%;
+}
+
+.navbar-brand {
+    padding-left: 9%;
+}
 
 .navbar-light, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand, .navbar-light .navbar-toggler  {
     color: white;
     border-color: white;
+}
+
+/* Section 1/Welcome Containers */
+.welcome {
+    background-color: #ff4c68;
+    color: white;
 }
 
 .container_1 {
@@ -51,49 +45,41 @@ img {
 }
 
 .container_2 {
-    
     position: relative;
     float: left;
     padding: 2% 10%;
-
 }
 
 .container_2 h1 {
     padding-bottom: 8%;
 }
 
-.welcome {
-    background-color: #ff4c68;
-    color: white;
-}
-
-#testimonials {
+/* Section 2/Testimonials */
+.section_2 {
     text-align: center;
     background-color: #FE7E6D;
-}
-
-.testimonials_img {
-    padding: 5% 0;
-}
-
-.link {
-    border-radius: 10%;
-    /* padding-bottom: 54%; */
-    display: inline;
+    height: 700px;
+    padding-top: 5%;
 }
 
 .carousel-item {
     padding: 5% 20%;
 }
 
-/* .carousel-item, .active, .container-fluid {
-    position: relative;
-    padding-bottom: 50%;
-} */
+.testimonial_text {
+    font-style: italic;
+}
 
-.section_4 {
+.testimonials_img {
+    max-height: 287px;
+    padding: 5% 0;
+}
+
+/* Section 3/Pricing Cards */
+
+.section_3 {
     background-color: #EEEEEE;
-    padding: 2% 10%;
+    padding: 5% 10%;
 }
 
 .pricing_header, .card-header {
@@ -104,17 +90,44 @@ img {
     padding: 2%;
 }
 
+.google_reviews img {
+border-radius: 20%;
+}
+
+
 @media (max-width: 991px) {
     body {
         text-align: center;
     }
 
-    .container_1 {
-        float: none;
+    /* Section 2/Testimonials */
+    .section_2 {
+        height: 650px;
+        padding-top: 10%;
+        font-size: .8rem;
     }
 
+    .testimonial_text {
+        margin: auto -25%;
+        line-height: 2;
+    }
+
+    .testimonials_img {
+        max-height: 223px;
+        padding: 5% 0;
+    }
+
+    button.carousel-control-next, .carousel-control-prev  {
+        opacity: 0;
+    }
+    
+    /* Section 3/Pricing Cards */
     .card-body {
         text-align: left;
+    }
+
+    #pricing.section_3 {
+    padding-top: 10%;
     }
 
 }
