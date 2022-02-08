@@ -1,0 +1,120 @@
+body {
+    font-family: "montserrat";
+    
+    
+}
+
+h1, h2, h3 {
+    font-family: "montserrat";
+    font-weight: 900;
+}
+
+#navbarNav {
+    flex: none;
+    background-color: #ff4c68;
+    padding: 0 10%;
+    
+    
+}
+
+.navbar-brand {
+    color: white;
+    padding-left: 9%;
+}
+
+a {
+    color: white;
+}
+
+.section_1 {
+    background-color: #ff4c68;
+    color: white;
+    
+    margin-bottom: 3;
+}
+
+img {
+    border-radius: 100%;
+}
+
+
+.navbar-light, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand, .navbar-light .navbar-toggler  {
+    color: white;
+    border-color: white;
+}
+
+.container_1 {
+    position: relative;
+    float: right;
+    text-align: center;
+    padding: 2% 10%;
+}
+
+.container_2 {
+    
+    position: relative;
+    float: left;
+    padding: 2% 10%;
+
+}
+
+.container_2 h1 {
+    padding-bottom: 8%;
+}
+
+.welcome {
+    background-color: #ff4c68;
+    color: white;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #FE7E6D;
+}
+
+.testimonials_img {
+    padding: 5% 0;
+}
+
+.link {
+    border-radius: 10%;
+    /* padding-bottom: 54%; */
+    display: inline;
+}
+
+.carousel-item {
+    padding: 5% 20%;
+}
+
+/* .carousel-item, .active, .container-fluid {
+    position: relative;
+    padding-bottom: 50%;
+} */
+
+.section_4 {
+    background-color: #EEEEEE;
+    padding: 2% 10%;
+}
+
+.pricing_header, .card-header {
+    text-align: center;
+}
+
+.pricing_column {
+    padding: 2%;
+}
+
+@media (max-width: 991px) {
+    body {
+        text-align: center;
+    }
+
+    .container_1 {
+        float: none;
+    }
+
+    .card-body {
+        text-align: left;
+    }
+
+}
