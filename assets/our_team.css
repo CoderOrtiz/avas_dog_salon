@@ -1,14 +1,18 @@
 body {
     background-color: #FE7E6D;
     padding: 0 10%;
-    margin: 0;
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
 }
 
 .icon:hover {
     color: #F1D00A;
 }
-/* NavBar */
 
+/* NavBar */
 #navbarNav {
     flex: none;
     padding: 0 10%;
@@ -23,44 +27,40 @@ body {
     border-color: white;
 }
 
-.our_team {
-    text-align: center;
-}
-
-img {
-    border-radius: 100%;
-}
-
-.profile_pictures {
-    width: 30%;
-    border-radius: 100%;
-    text-align: center;
-    position:relative;
-
-}
-
-h1 {
-    text-align: center;
-}
-
-h3 {
-    padding-top: 1%;
-}
-
+/* HR Styling */
 hr { 
     opacity: 80%;
     background-image: linear-gradient(to right, rgba( 254, 126, 109, 1), rgba( 255, 255, 255, 1), rgba( 254, 126, 109, 1));  
  }
 
-footer, span {
-    background-color: #FE7E6D;
-    
-    color: white;
+.mobile_hr {
+    display: none;
+}
+
+/* Profile Picture Styling */
+.profile_pictures {
+    width: 30%;
     text-align: center;
-    margin: 2%;
+    position:relative;
+}
+
+#maegans_profile_img {
+    margin-top: 7%;
+}
+
+/* Footer and Icon Styling */
+footer, span {
+    color: white;
+    padding: 10px;
 }
 
 footer p {
     color: black;
-    padding-top: 10px;
+}
+
+/* HR hidden until on mobile platform */
+@media (max-width: 991px) {
+    .mobile_hr {
+        display: inherit;
+    }
 }

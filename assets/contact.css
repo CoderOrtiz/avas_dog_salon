@@ -3,16 +3,7 @@ body {
     text-align: center;    
 }
 
-.icon:hover {
-    color: #F1D00A;
-}
-
-img {
-    border-radius: 100%;
-}
-
 /* NavBar */
-
 #navbarNav {
     flex: none;
     padding: 0 10%;
@@ -22,20 +13,20 @@ img {
     padding-left: 9%;
 }
 
-.navbar-light, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand, .navbar-light .navbar-toggler  {
+.navbar-light, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand, .navbar-light .navbar-toggler, img {
     color: white;
     border-color: white;
+    border-radius: 100%;
 }
 
-.our_team {
-    text-align: center;
-}
 
 h1, h3, h4 {
     padding: 2%;
 }
 
-
+.icon:hover {
+    color: #F1D00A;
+}
 
 span {
     background-color: #FE7E6D;
@@ -44,12 +35,14 @@ span {
     text-align: center;
 }
 
-p {
-    margin-top: 3%;
-}
-
 hr { 
     opacity: 50%;
     margin: 1%;
     background-image: linear-gradient(to right, rgba( 254, 126, 109, 1), rgba( 255, 255, 255, 1), rgba( 254, 126, 109, 1));  
  }
+
+p {
+    margin-top: 3%;
+}
+
+

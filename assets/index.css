@@ -3,11 +3,8 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "montserrat";
     font-weight: 900;
 }
-
-
 
 /* Section1/NavBar */
 /* NavBar */
@@ -35,19 +32,17 @@ img {
 .welcome {
     background-color: #ff4c68;
     color: white;
+    padding: 2% 10%;
+    text-align: center;
 }
 
 .container_1 {
-    position: relative;
     float: right;
-    text-align: center;
-    padding: 2% 10%;
 }
 
-.container_2 {
-    position: relative;
+.container_2{
     float: left;
-    padding: 2% 10%;
+    text-align: left;
 }
 
 .container_2 h1 {
@@ -75,23 +70,24 @@ img {
     padding: 5% 0;
 }
 
+.google_reviews img {
+    border-radius: 20%;
+    }
+ 
 /* Section 3/Pricing Cards */
 
 .section_3 {
     background-color: #EEEEEE;
     padding: 5% 10%;
+    text-align: center;
 }
 
-.pricing_header, .card-header {
-    text-align: center;
+.card-body {
+    text-align: left;
 }
 
 .pricing_column {
     padding: 2%;
-}
-
-.google_reviews img {
-border-radius: 20%;
 }
 
 /* Section 4/Sign up */
@@ -102,12 +98,12 @@ border-radius: 20%;
     text-align: center;
 }
 
+/* Footer */
 footer, span {
     padding: 20% auto;
     background-color: #FE7E6D;
     color: white;
     padding: 2% 1%;
-    border: 2px;
     text-align: center;
 }
 
@@ -120,7 +116,8 @@ footer p {
 }
 
 @media (max-width: 991px) {
-    body {
+    /* Section 1/Welcome Text */
+    .container_2 {
         text-align: center;
     }
 
@@ -138,7 +135,10 @@ footer p {
 
     .testimonials_img {
         max-height: 223px;
-        padding: 5% 0;
+    }
+
+    .google_reviews img {
+    width: 80%;
     }
 
     button.carousel-control-next, .carousel-control-prev  {
@@ -146,11 +146,8 @@ footer p {
     }
     
     /* Section 3/Pricing Cards */
-    .card-body {
-        text-align: left;
-    }
-
-    #pricing.section_3 {
+    
+    .pricing_header {
     padding-top: 10%;
     }
 
