@@ -1,5 +1,6 @@
 body {
     background-color: #FE7E6D;
+    margin: 1% 5%;
 }
 /* NavBar */
 
@@ -22,6 +23,7 @@ img {
 
 h1 {
     text-align: center;
+    margin: auto 5%;
 }
 
 h3 {
