@@ -1,0 +1,66 @@
+body {
+    background-color: #FE7E6D;
+    padding: 0 10%;
+    margin: 0;
+}
+
+.icon:hover {
+    color: #F1D00A;
+}
+/* NavBar */
+
+#navbarNav {
+    flex: none;
+    padding: 0 10%;
+}
+
+.navbar-brand {
+    padding-left: 9%;
+}
+
+.navbar-light, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand, .navbar-light .navbar-toggler  {
+    color: white;
+    border-color: white;
+}
+
+.our_team {
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.profile_pictures {
+    width: 30%;
+    border-radius: 100%;
+    text-align: center;
+    position:relative;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    padding-top: 1%;
+}
+
+hr { 
+    opacity: 80%;
+    background-image: linear-gradient(to right, rgba( 254, 126, 109, 1), rgba( 255, 255, 255, 1), rgba( 254, 126, 109, 1));  
+ }
+
+footer, span {
+    background-color: #FE7E6D;
+    
+    color: white;
+    text-align: center;
+    margin: 2%;
+}
+
+footer p {
+    color: black;
+    padding-top: 10px;
+}

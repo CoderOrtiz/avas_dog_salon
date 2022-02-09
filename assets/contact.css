@@ -1,0 +1,55 @@
+body {
+    background-color: #FE7E6D;
+    text-align: center;    
+}
+
+.icon:hover {
+    color: #F1D00A;
+}
+
+img {
+    border-radius: 100%;
+}
+
+/* NavBar */
+
+#navbarNav {
+    flex: none;
+    padding: 0 10%;
+}
+
+.navbar-brand {
+    padding-left: 9%;
+}
+
+.navbar-light, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand, .navbar-light .navbar-toggler  {
+    color: white;
+    border-color: white;
+}
+
+.our_team {
+    text-align: center;
+}
+
+h1, h3, h4 {
+    padding: 2%;
+}
+
+
+
+span {
+    background-color: #FE7E6D;
+    padding: 0% 2% 0 2%;
+    color: white;
+    text-align: center;
+}
+
+p {
+    margin-top: 3%;
+}
+
+hr { 
+    opacity: 50%;
+    margin: 1%;
+    background-image: linear-gradient(to right, rgba( 254, 126, 109, 1), rgba( 255, 255, 255, 1), rgba( 254, 126, 109, 1));  
+ }

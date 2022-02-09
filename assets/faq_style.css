@@ -1,0 +1,52 @@
+body {
+    background-color: #FE7E6D;
+}
+/* NavBar */
+
+#navbarNav {
+    flex: none;
+    padding: 0 10%;
+}
+
+.navbar-brand {
+    padding-left: 9%;
+}
+
+.navbar-light, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand, .navbar-light .navbar-toggler  {
+    color: white;
+    border-color: white;
+}
+img {
+    border-radius: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    padding-top: 1%;
+}
+
+hr { 
+    opacity: 50%;
+    background-image: linear-gradient(to right, rgba( 254, 126, 109, 1), rgba( 255, 255, 255, 1), rgba( 254, 126, 109, 1));  
+ }
+
+footer {
+    background-color: #FE7E6D;
+    text-align: center;
+}
+
+span {
+    padding: 1%;
+    color: white;
+}
+
+footer p {
+    color: black;
+}
+
+.icon:hover {
+    color: #F1D00A;
+}

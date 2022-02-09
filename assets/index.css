@@ -7,9 +7,7 @@ h1, h2, h3 {
     font-weight: 900;
 }
 
-img {
-    border-radius: 100%;
-}
+
 
 /* Section1/NavBar */
 /* NavBar */
@@ -30,7 +28,9 @@ img {
     color: white;
     border-color: white;
 }
-
+img {
+    border-radius: 100%;
+}
 /* Section 1/Welcome Containers */
 .welcome {
     background-color: #ff4c68;
@@ -94,6 +94,30 @@ img {
 border-radius: 20%;
 }
 
+/* Section 4/Sign up */
+
+.section_4 {
+    margin: 10% auto;
+    transform: rotate(-5deg);
+    text-align: center;
+}
+
+footer, span {
+    padding: 20% auto;
+    background-color: #FE7E6D;
+    color: white;
+    padding: 2% 1%;
+    border: 2px;
+    text-align: center;
+}
+
+footer p {
+    color: black;
+}
+
+.icon:hover {
+    color: #F1D00A;
+}
 
 @media (max-width: 991px) {
     body {
